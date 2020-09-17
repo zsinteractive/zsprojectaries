@@ -1,0 +1,2554 @@
+{
+    "api_data": {
+        "heading": "ZS - Pfizer RFP",
+        "header_img": "aries_logo.png",
+        "d3_color_scheme": "interpolatePlasma",
+        "title_text":"<p><span style=\"font-family: Calibri, sans-serif; font-size: 18px;\">Interactive Story Telling Capabilities is based on 3 major pillars -&nbsp;</span></p><p><span style=\"font-family: Calibri, sans-serif; font-size: 18px;\">1) Basic &amp; advanced charts &amp; its layout</span></p><p><span style=\"font-family: Calibri, sans-serif; font-size: 18px;\">2) Interactivity between Charts</span></p><p><span style=\"font-family: Calibri, sans-serif; font-size: 18px;\">3) Integration with DSS &amp; Ease of creation&nbsp;</span></p><p><span style=\"font-family: Calibri, sans-serif; font-size: 18px;\">Subsequent sections in this webpage helps you walk through different types of charts and layouts along with interactivity.</span></p><p><span style=\"font-family: Calibri, sans-serif; font-size: 18px;\"></span><span style=\"font-family: Calibri, sans-serif; font-size: 15px;\"><em>PS: Visualizations are created using dummy data</em></span></p>" ,
+		"defined_colors": {
+            "Asia": "#0084D0",
+            "Europe": "#00B0E3",
+            "NA (East)": "#00D8DB",
+            "NA (West)": "#77FAC6",
+            "Program Management": "#35B4E4",
+            "Analytics": "#00CEE5",
+            "User Experience": "#35E6D7",
+            "Architects": "#82F9BE",
+            "Developers": "#D8ECF8",
+            "Data Engineers": "#A8EDFA",
+            "Testing & QA": "#79EEE2",
+            "Business Operations": "#73EBB1",
+            "Knowledge Management": "#8A8C8F"
+        },
+        "end_heading": "Thank You",
+        "end_note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum, sapien id ullamcorper vehicula, eros dolor feugiat ipsum, nec tincidunt sem ex vitae tellus. Curabitur porttitor blandit massa at posuere. Cras faucibus nibh a dui eleifend, et suscipit quam laoreet. Mauris a urna eu magna tincidunt malesuada in commodo erat. Ut in aliquet nibh, quis molestie velit. Suspendisse pharetra nisi sit amet fermentum dapibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum metus ligula, tempus vel scelerisque porttitor, porta ac tortor.",
+        "data": [
+			{
+                "pos": 0,
+                "dataset_name": "GLBD3JSTESTING.prp_finland_tenders_final_data_pq",
+                "chart_type": "illu_image",
+                "title": "bubble",
+                "layout": "left-text",
+                "x_axis": "sales",
+                "x_axis_agg": "sum",
+                "x_axis_label": "Sales ($)",
+                "value_radius": "retail_price",
+                "value_agg": "mean",
+                "lod": "substances_grouped",
+                "color": "marketing_company",
+				"img_name":"ZS_Logo.png",
+                "ischildren": 0.0,
+                "isdropdown": 0.0,
+                "clicktofilter": 0.0,
+                "clickchildren": {},
+				"children": {},
+                "html": {
+                    "heading": "Heading Title",
+                    "subheading": "Sub Heading",
+                    "para": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    ],
+                    "footer": "Hover over any element"
+                }
+            },
+			{
+                "pos": 1,
+                "dataset_name": "GLBD3JSTESTING.prp_finland_tenders_final_data_pq",
+                "chart_type": "multi_image",
+                "title": "bubble",
+                "layout": "left-text",
+                "x_axis": "sales",
+                "x_axis_agg": "sum",
+                "x_axis_label": "Sales ($)",
+                "value_radius": "retail_price",
+                "value_agg": "mean",
+                "lod": "substances_grouped",
+                "color": "marketing_company",
+				"img_name":["test1.png", "test2.png", "test3.png", "test4.png", "test5.png"],
+                "ischildren": 0.0,
+                "isdropdown": 0.0,
+                "clicktofilter": 0.0,
+                "clickchildren": {},
+				"children": {},
+                "html": {
+                    "heading": "Heading Title",
+                    "subheading": "Sub Heading",
+                    "para": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    ],
+                    "footer": "Hover over any element"
+                }
+            },
+			{
+                "pos": 2,
+                "dataset_name": "GLBD3JSTESTING.prp_finland_tenders_final_data_pq",
+                "chart_type": "packed_bubble_chart",
+                "title": "Sunburst",
+                "layout": "right-text",
+                "x_axis": "competitor, substances_grouped, marketing_company",
+                "value_radius": "row_count",
+                "value_agg": "sum",
+                "color": "color_key",
+                "ischildren": 0.0,
+                "isdropdown": 0.0,
+                "clicktofilter": 0.0,
+                "clickchildren": {},
+                "data": {
+                    "name": "root",
+                    "children": [
+                        {
+                            "name": "competitor",
+                            "children": [
+                                {
+                                    "name": "alprazolam",
+                                    "children": [
+                                        {
+                                            "name": "krka",
+                                            "size": 232
+                                        },
+                                        {
+                                            "name": "orion pharma",
+                                            "size": 348
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "amlodipine",
+                                    "children": [
+                                        {
+                                            "name": "accord healthcare",
+                                            "size": 6
+                                        },
+                                        {
+                                            "name": "krka",
+                                            "size": 232
+                                        },
+                                        {
+                                            "name": "orion pharma",
+                                            "size": 112
+                                        },
+                                        {
+                                            "name": "ratiopharm",
+                                            "size": 406
+                                        },
+                                        {
+                                            "name": "sandoz",
+                                            "size": 116
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "atorvastatin",
+                                    "children": [
+                                        {
+                                            "name": "accord healthcare",
+                                            "size": 48
+                                        },
+                                        {
+                                            "name": "krka",
+                                            "size": 464
+                                        },
+                                        {
+                                            "name": "orifarm",
+                                            "size": 14
+                                        },
+                                        {
+                                            "name": "orion pharma",
+                                            "size": 464
+                                        },
+                                        {
+                                            "name": "ratiopharm",
+                                            "size": 464
+                                        },
+                                        {
+                                            "name": "sandoz",
+                                            "size": 178
+                                        },
+                                        {
+                                            "name": "stada nordic",
+                                            "size": 290
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "axitinib",
+                                    "children": [
+                                        {
+                                            "name": "abacus medicine",
+                                            "size": 28
+                                        },
+                                        {
+                                            "name": "orifarm",
+                                            "size": 46
+                                        },
+                                        {
+                                            "name": "paranova",
+                                            "size": 52
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "azithromycin",
+                                    "children": [
+                                        {
+                                            "name": "krka",
+                                            "size": 58
+                                        },
+                                        {
+                                            "name": "mylan finland",
+                                            "size": 102
+                                        },
+                                        {
+                                            "name": "orion pharma",
+                                            "size": 58
+                                        },
+                                        {
+                                            "name": "ratiopharm",
+                                            "size": 116
+                                        },
+                                        {
+                                            "name": "sandoz",
+                                            "size": 232
+                                        },
+                                        {
+                                            "name": "stada nordic",
+                                            "size": 58
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "celecoxib",
+                                    "children": [
+                                        {
+                                            "name": "krka",
+                                            "size": 290
+                                        },
+                                        {
+                                            "name": "orion pharma",
+                                            "size": 232
+                                        },
+                                        {
+                                            "name": "sandoz",
+                                            "size": 250
+                                        },
+                                        {
+                                            "name": "stada nordic",
+                                            "size": 232
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "clindamycin",
+                                    "children": [
+                                        {
+                                            "name": "mip pharma",
+                                            "size": 58
+                                        },
+                                        {
+                                            "name": "orifarm",
+                                            "size": 104
+                                        },
+                                        {
+                                            "name": "orion pharma",
+                                            "size": 133
+                                        },
+                                        {
+                                            "name": "paranova",
+                                            "size": 46
+                                        },
+                                        {
+                                            "name": "sandoz",
+                                            "size": 97
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "crizotinib",
+                                    "children": [
+                                        {
+                                            "name": "orifarm",
+                                            "size": 12
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "dalteparin",
+                                    "children": [
+                                        {
+                                            "name": "orifarm",
+                                            "size": 18
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "donepezil",
+                                    "children": [
+                                        {
+                                            "name": "accord healthcare",
+                                            "size": 94
+                                        },
+                                        {
+                                            "name": "krka",
+                                            "size": 188
+                                        },
+                                        {
+                                            "name": "orifarm generics",
+                                            "size": 72
+                                        },
+                                        {
+                                            "name": "orion pharma",
+                                            "size": 188
+                                        },
+                                        {
+                                            "name": "ratiopharm",
+                                            "size": 216
+                                        },
+                                        {
+                                            "name": "sanoswiss uab",
+                                            "size": 100
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "eletriptan",
+                                    "children": [
+                                        {
+                                            "name": "mylan finland",
+                                            "size": 48
+                                        },
+                                        {
+                                            "name": "orifarm generics",
+                                            "size": 116
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "epoetin",
+                                    "children": [
+                                        {
+                                            "name": "abacus medicine",
+                                            "size": 78
+                                        },
+                                        {
+                                            "name": "orifarm",
+                                            "size": 16
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "estramustine",
+                                    "children": [
+                                        {
+                                            "name": "paranova",
+                                            "size": 52
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "exemestane",
+                                    "children": [
+                                        {
+                                            "name": "accord healthcare",
+                                            "size": 58
+                                        },
+                                        {
+                                            "name": "avansor pharma",
+                                            "size": 30
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "filgrastim",
+                                    "children": [
+                                        {
+                                            "name": "abacus medicine",
+                                            "size": 68
+                                        },
+                                        {
+                                            "name": "orifarm",
+                                            "size": 104
+                                        },
+                                        {
+                                            "name": "paranova",
+                                            "size": 104
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "fluconazole",
+                                    "children": [
+                                        {
+                                            "name": "krka",
+                                            "size": 348
+                                        },
+                                        {
+                                            "name": "orifarm",
+                                            "size": 22
+                                        },
+                                        {
+                                            "name": "orion pharma",
+                                            "size": 406
+                                        },
+                                        {
+                                            "name": "paranova",
+                                            "size": 64
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "gabapentin",
+                                    "children": [
+                                        {
+                                            "name": "2care4",
+                                            "size": 34
+                                        },
+                                        {
+                                            "name": "accord healthcare",
+                                            "size": 123
+                                        },
+                                        {
+                                            "name": "orifarm",
+                                            "size": 232
+                                        },
+                                        {
+                                            "name": "orion pharma",
+                                            "size": 290
+                                        },
+                                        {
+                                            "name": "paranova",
+                                            "size": 232
+                                        },
+                                        {
+                                            "name": "ratiopharm",
+                                            "size": 124
+                                        },
+                                        {
+                                            "name": "sandoz",
+                                            "size": 254
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "latanoprost",
+                                    "children": [
+                                        {
+                                            "name": "ratiopharm",
+                                            "size": 106
+                                        },
+                                        {
+                                            "name": "sandoz",
+                                            "size": 112
+                                        },
+                                        {
+                                            "name": "stada nordic",
+                                            "size": 58
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "latanoprost,",
+                                    "children": [
+                                        {
+                                            "name": "paranova",
+                                            "size": 42
+                                        },
+                                        {
+                                            "name": "sandoz",
+                                            "size": 51
+                                        },
+                                        {
+                                            "name": "stada nordic",
+                                            "size": 58
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "linezolid",
+                                    "children": [
+                                        {
+                                            "name": "accord healthcare",
+                                            "size": 58
+                                        },
+                                        {
+                                            "name": "avansor pharma",
+                                            "size": 58
+                                        },
+                                        {
+                                            "name": "krka",
+                                            "size": 58
+                                        },
+                                        {
+                                            "name": "orion pharma",
+                                            "size": 52
+                                        },
+                                        {
+                                            "name": "sandoz",
+                                            "size": 58
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "lorazepam",
+                                    "children": [
+                                        {
+                                            "name": "orifarm generics",
+                                            "size": 58
+                                        },
+                                        {
+                                            "name": "orion pharma",
+                                            "size": 58
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "methylprednisolone",
+                                    "children": [
+                                        {
+                                            "name": "orifarm",
+                                            "size": 8
+                                        },
+                                        {
+                                            "name": "orion pharma",
+                                            "size": 118
+                                        },
+                                        {
+                                            "name": "paranova",
+                                            "size": 16
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "piroxicam",
+                                    "children": [
+                                        {
+                                            "name": "paranova",
+                                            "size": 58
+                                        },
+                                        {
+                                            "name": "ratiopharm",
+                                            "size": 58
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "pregabalin",
+                                    "children": [
+                                        {
+                                            "name": "abacus medicine",
+                                            "size": 22
+                                        },
+                                        {
+                                            "name": "accord healthcare",
+                                            "size": 112
+                                        },
+                                        {
+                                            "name": "orifarm",
+                                            "size": 192
+                                        },
+                                        {
+                                            "name": "orion pharma",
+                                            "size": 464
+                                        },
+                                        {
+                                            "name": "paranova",
+                                            "size": 184
+                                        },
+                                        {
+                                            "name": "ratiopharm",
+                                            "size": 406
+                                        },
+                                        {
+                                            "name": "sandoz",
+                                            "size": 312
+                                        },
+                                        {
+                                            "name": "stada nordic",
+                                            "size": 406
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "sertraline",
+                                    "children": [
+                                        {
+                                            "name": "accord healthcare",
+                                            "size": 66
+                                        },
+                                        {
+                                            "name": "krka",
+                                            "size": 138
+                                        },
+                                        {
+                                            "name": "orion pharma",
+                                            "size": 162
+                                        },
+                                        {
+                                            "name": "ratiopharm",
+                                            "size": 138
+                                        },
+                                        {
+                                            "name": "sandoz",
+                                            "size": 138
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "sildenafil",
+                                    "children": [
+                                        {
+                                            "name": "accord healthcare",
+                                            "size": 95
+                                        },
+                                        {
+                                            "name": "krka",
+                                            "size": 65
+                                        },
+                                        {
+                                            "name": "mylan finland",
+                                            "size": 46
+                                        },
+                                        {
+                                            "name": "orion pharma",
+                                            "size": 218
+                                        },
+                                        {
+                                            "name": "paranova",
+                                            "size": 36
+                                        },
+                                        {
+                                            "name": "ratiopharm",
+                                            "size": 173
+                                        },
+                                        {
+                                            "name": "sandoz",
+                                            "size": 174
+                                        },
+                                        {
+                                            "name": "stada nordic",
+                                            "size": 98
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "somatropin",
+                                    "children": [
+                                        {
+                                            "name": "paranova",
+                                            "size": 12
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "sulfasalazine",
+                                    "children": [
+                                        {
+                                            "name": "paranova",
+                                            "size": 52
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "tofacitinib",
+                                    "children": [
+                                        {
+                                            "name": "abacus medicine",
+                                            "size": 6
+                                        },
+                                        {
+                                            "name": "orifarm",
+                                            "size": 10
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "tolterodine",
+                                    "children": [
+                                        {
+                                            "name": "ratiopharm",
+                                            "size": 116
+                                        },
+                                        {
+                                            "name": "sandoz",
+                                            "size": 116
+                                        },
+                                        {
+                                            "name": "sanoswiss uab",
+                                            "size": 116
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "vareniclin",
+                                    "children": [
+                                        {
+                                            "name": "orifarm",
+                                            "size": 28
+                                        },
+                                        {
+                                            "name": "paranova",
+                                            "size": 64
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "venlafaxine",
+                                    "children": [
+                                        {
+                                            "name": "krka",
+                                            "size": 234
+                                        },
+                                        {
+                                            "name": "orion pharma",
+                                            "size": 176
+                                        },
+                                        {
+                                            "name": "ratiopharm",
+                                            "size": 146
+                                        },
+                                        {
+                                            "name": "sandoz",
+                                            "size": 103
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "voriconazole",
+                                    "children": [
+                                        {
+                                            "name": "accord healthcare",
+                                            "size": 110
+                                        },
+                                        {
+                                            "name": "orion pharma",
+                                            "size": 58
+                                        },
+                                        {
+                                            "name": "sandoz",
+                                            "size": 58
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "ziprasidone",
+                                    "children": [
+                                        {
+                                            "name": "krka",
+                                            "size": 314
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "pfizer",
+                            "children": [
+                                {
+                                    "name": "alprazolam",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 580
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "amlodipine",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 232
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "atorvastatin",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 1433
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "axitinib",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 52
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "azithromycin",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 232
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "celecoxib",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 522
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "clindamycin",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 280
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "crizotinib",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 12
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "dalteparin",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 18
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "donepezil",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 184
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "eletriptan",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 116
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "epoetin",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 78
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "estramustine",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 52
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "exemestane",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 116
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "filgrastim",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 104
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "fluconazole",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 406
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "gabapentin",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 290
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "latanoprost",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 170
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "latanoprost,",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 88
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "linezolid",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 103
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "lorazepam",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 58
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "methylprednisolone",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 81
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "piroxicam",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 58
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "pregabalin",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 504
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "sertraline",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 134
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "sildenafil",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 232
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "somatropin",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 12
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "sulfasalazine",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 52
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "tofacitinib",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 10
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "tolterodine",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 232
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "vareniclin",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 64
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "venlafaxine",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 234
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "voriconazole",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 110
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "ziprasidone",
+                                    "children": [
+                                        {
+                                            "name": "pfizer",
+                                            "size": 314
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "children": {},
+                "html": {
+                    "heading": "Sunburst Chart",
+                    "subheading": "Sub Heading",
+                    "para": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    ],
+                    "footer": "Click on any layer to dive deeper"
+                }
+            },
+			{
+                "pos": 5,
+                "dataset_name": "GLBD3JSTESTING.prp_finland_tenders_final_data_pq",
+                "chart_type": "image_map",
+                "title": "Sunburst",
+                "layout": "right-text",
+                "x_axis": "competitor, substances_grouped, marketing_company",
+                "value_radius": "row_count",
+                "value_agg": "sum",
+                "color": "color_key",
+				"img_name":"combine1.png",
+                "ischildren": 0.0,
+                "isdropdown": 0.0,
+                "clicktofilter": 0.0,
+                "clickchildren": {},
+				"children": {},
+                "html": {
+                    "heading": "4 Groups",
+                    "subheading": "Sub Heading",
+                    "para": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    ],
+                    "footer": "Click on any layer to dive deeper"
+                }
+            },
+			{
+                "pos": 4,
+                "dataset_name": "GLBD3JSTESTING.prp_finland_tenders_final_data_pq",
+                "chart_type": "sankey",
+                "title": "Scatter_plot3",
+                "layout": "left-text",
+                "x_axis": "predicted_ref_actual_ref_percent_difference",
+                "x_axis_agg": "mean",
+                "y_axis": "market_share_units_percent_diff",
+                "y_axis_agg": "mean",
+                "x_axis_label": "Actual vs Predicted Ref Price",
+                "y_axis_label": "Market Share Change",
+                "value_radius": "row_count",
+                "value_agg": "max",
+                "lod": "marketing_company",
+                "color": "substances_grouped",
+                "ischildren": 0.0,
+                "isinteractive": 0.0,
+                "isdropdown": 0.0,
+                "clicktofilter": 1.0,
+                "clickchildren": {},
+                "filtersource": "color",
+                "data": {"nodes": [{"name": "Creative & Design", "source": 0}, {"name": "Resource Planning & Deployment", "source": 1}, {"name": "Customer Centric Marketing", "source": 2}, {"name": "Sales Compensation", "source": 3}, {"name": "Integrated Analytics", "source": 4}, {"name": "Business Operations", "source": 5}, {"name": "Business Technology", "source": 6}, {"name": "Patient & Consumer Health", "source": 7}, {"name": "Strategy & Transformation", "source": 8}, {"name": "Value & Access", "source": 9}, {"name": "Meetings + Events", "source": 10}, {"name": "Pipeline & Launch Strategy", "source": 11}, {"name": "Customer Insights", "source": 12}, {"name": "Growth Marketing", "source": 13}, {"name": "R&D Excellence", "source": 14}, {"name": "Healthcare Ecosystem", "source": 15}], "links": [{"source": 8, "target": 14, "value": 1}, {"source": 0, "target": 14, "value": 1}, {"source": 12, "target": 14, "value": 1}, {"source": 4, "target": 14, "value": 1}, {"source": 5, "target": 14, "value": 1}, {"source": 6, "target": 14, "value": 1}, {"source": 15, "target": 14, "value": 1}, {"source": 8, "target": 11, "value": 1}, {"source": 0, "target": 11, "value": 1}, {"source": 12, "target": 11, "value": 1}, {"source": 4, "target": 11, "value": 1}, {"source": 5, "target": 11, "value": 1}, {"source": 6, "target": 11, "value": 1}, {"source": 15, "target": 11, "value": 1}, {"source": 8, "target": 9, "value": 1}, {"source": 0, "target": 9, "value": 1}, {"source": 12, "target": 9, "value": 1}, {"source": 4, "target": 9, "value": 1}, {"source": 5, "target": 9, "value": 1}, {"source": 6, "target": 9, "value": 1}, {"source": 15, "target": 9, "value": 1}, {"source": 8, "target": 13, "value": 1}, {"source": 0, "target": 13, "value": 1}, {"source": 12, "target": 13, "value": 1}, {"source": 4, "target": 13, "value": 1}, {"source": 5, "target": 13, "value": 1}, {"source": 6, "target": 13, "value": 1}, {"source": 15, "target": 13, "value": 1}, {"source": 8, "target": 2, "value": 1}, {"source": 0, "target": 2, "value": 1}, {"source": 12, "target": 2, "value": 1}, {"source": 4, "target": 2, "value": 1}, {"source": 5, "target": 2, "value": 1}, {"source": 6, "target": 2, "value": 1}, {"source": 15, "target": 2, "value": 1}, {"source": 8, "target": 10, "value": 1}, {"source": 0, "target": 10, "value": 1}, {"source": 12, "target": 10, "value": 1}, {"source": 4, "target": 10, "value": 1}, {"source": 5, "target": 10, "value": 1}, {"source": 6, "target": 10, "value": 1}, {"source": 15, "target": 10, "value": 1}, {"source": 8, "target": 1, "value": 1}, {"source": 0, "target": 1, "value": 1}, {"source": 12, "target": 1, "value": 1}, {"source": 4, "target": 1, "value": 1}, {"source": 5, "target": 1, "value": 1}, {"source": 6, "target": 1, "value": 1}, {"source": 15, "target": 1, "value": 1}, {"source": 8, "target": 3, "value": 1}, {"source": 0, "target": 3, "value": 1}, {"source": 12, "target": 3, "value": 1}, {"source": 4, "target": 3, "value": 1}, {"source": 5, "target": 3, "value": 1}, {"source": 6, "target": 3, "value": 1}, {"source": 15, "target": 3, "value": 1}, {"source": 8, "target": 7, "value": 1}, {"source": 0, "target": 7, "value": 1}, {"source": 12, "target": 7, "value": 1}, {"source": 4, "target": 7, "value": 1}, {"source": 5, "target": 7, "value": 1}, {"source": 6, "target": 7, "value": 1}, {"source": 15, "target": 7, "value": 1}]},
+                "children": {},
+                "html": {
+                    "heading": "HScatter Plot",
+                    "subheading": "Sub Heading",
+                    "para": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    ],
+                    "footer": "Hover over any bubble or click on any bubble"
+                }
+            },
+            {
+                "pos": 6,
+                "dataset_name": "test1_prepared",
+                "chart_type": "stack_bar_hor",
+                "title": "Skill Based",
+                "layout": "right-text",
+                "x_axis": "Employees",
+                "x_axis_agg": "sum",
+                "y_axis": "Skill_Set",
+                "x_axis_label": "Employees",
+                "y_axis_label": "Skill Set",
+                "value_radius": "row_count",
+                "value_agg": "max",
+                "color": "Geography",
+                "ischildren": 0.0,
+                "isdropdown": 0.0,
+                "clicktofilter": 0.0,
+                "clickchildren": {},
+                "button_or_dropdown": "button",
+                "data": [{
+                  "y_axis": "Analytics",
+                  "color": "Asia",
+                  "x_axis": 1423
+                }, {
+                  "y_axis": "Analytics",
+                  "color": "Europe",
+                  "x_axis": 26
+                }, {
+                  "y_axis": "Analytics",
+                  "color": "NA (East)",
+                  "x_axis": 191
+                }, {
+                  "y_axis": "Analytics",
+                  "color": "NA (West)",
+                  "x_axis": 175
+                }, {
+                  "y_axis": "Architects",
+                  "color": "Asia",
+                  "x_axis": 195
+                }, {
+                  "y_axis": "Architects",
+                  "color": "Europe",
+                  "x_axis": 2
+                }, {
+                  "y_axis": "Architects",
+                  "color": "NA (East)",
+                  "x_axis": 19
+                }, {
+                  "y_axis": "Architects",
+                  "color": "NA (West)",
+                  "x_axis": 16
+                }, {
+                  "y_axis": "Business Operations",
+                  "color": "Asia",
+                  "x_axis": 1225
+                }, {
+                  "y_axis": "Business Operations",
+                  "color": "Europe",
+                  "x_axis": 3
+                }, {
+                  "y_axis": "Business Operations",
+                  "color": "NA (East)",
+                  "x_axis": 73
+                }, {
+                  "y_axis": "Business Operations",
+                  "color": "NA (West)",
+                  "x_axis": 81
+                }, {
+                  "y_axis": "Data Engineers",
+                  "color": "Asia",
+                  "x_axis": 723
+                }, {
+                  "y_axis": "Data Engineers",
+                  "color": "Europe",
+                  "x_axis": 6
+                }, {
+                  "y_axis": "Data Engineers",
+                  "color": "NA (East)",
+                  "x_axis": 70
+                }, {
+                  "y_axis": "Data Engineers",
+                  "color": "NA (West)",
+                  "x_axis": 60
+                }, {
+                  "y_axis": "Developers",
+                  "color": "Asia",
+                  "x_axis": 586
+                }, {
+                  "y_axis": "Developers",
+                  "color": "Europe",
+                  "x_axis": 5
+                }, {
+                  "y_axis": "Developers",
+                  "color": "NA (East)",
+                  "x_axis": 56
+                }, {
+                  "y_axis": "Developers",
+                  "color": "NA (West)",
+                  "x_axis": 49
+                }, {
+                  "y_axis": "Knowledge Management",
+                  "color": "Asia",
+                  "x_axis": 291
+                }, {
+                  "y_axis": "Knowledge Management",
+                  "color": "Europe",
+                  "x_axis": 1
+                }, {
+                  "y_axis": "Knowledge Management",
+                  "color": "NA (East)",
+                  "x_axis": 1
+                }, {
+                  "y_axis": "Knowledge Management",
+                  "color": "NA (West)",
+                  "x_axis": 1
+                }, {
+                  "y_axis": "Program Management",
+                  "color": "Asia",
+                  "x_axis": 98
+                }, {
+                  "y_axis": "Program Management",
+                  "color": "Europe",
+                  "x_axis": 1
+                }, {
+                  "y_axis": "Program Management",
+                  "color": "NA (East)",
+                  "x_axis": 9
+                }, {
+                  "y_axis": "Program Management",
+                  "color": "NA (West)",
+                  "x_axis": 8
+                }, {
+                  "y_axis": "Testing & QA",
+                  "color": "Asia",
+                  "x_axis": 293
+                }, {
+                  "y_axis": "User Experience",
+                  "color": "Asia",
+                  "x_axis": 59
+                }, {
+                  "y_axis": "User Experience",
+                  "color": "Europe",
+                  "x_axis": 1
+                }, {
+                  "y_axis": "User Experience",
+                  "color": "NA (East)",
+                  "x_axis": 6
+                }, {
+                  "y_axis": "User Experience",
+                  "color": "NA (West)",
+                  "x_axis": 5
+                }],
+                "children": {
+                  "Geography Based": {
+                    "pos": 4,
+                    "dataset_name": "test1_prepared",
+                    "chart_type": "stack_bar",
+                    "title": "Geography Based",
+                    "layout": "right-text",
+                    "x_axis": "Geography",
+                    "y_axis": "Employees",
+                    "y_axis_agg": "sum",
+                    "x_axis_label": "Geography",
+                    "y_axis_label": "Employees",
+                    "value_radius": "row_count",
+                    "value_agg": "max",
+                    "color": "Skill_Set",
+                    "ischildren": 1.0,
+                    "isdropdown": 0.0,
+                    "clicktofilter": 0.0,
+                    "clickchildren": 0.0,
+                    "button_or_dropdown": "button",
+                    "data": [{
+                      "x_axis": "Asia",
+                      "color": "Analytics",
+                      "y_axis": 1423
+                    }, {
+                      "x_axis": "Asia",
+                      "color": "Architects",
+                      "y_axis": 195
+                    }, {
+                      "x_axis": "Asia",
+                      "color": "Business Operations",
+                      "y_axis": 1225
+                    }, {
+                      "x_axis": "Asia",
+                      "color": "Data Engineers",
+                      "y_axis": 723
+                    }, {
+                      "x_axis": "Asia",
+                      "color": "Developers",
+                      "y_axis": 586
+                    }, {
+                      "x_axis": "Asia",
+                      "color": "Knowledge Management",
+                      "y_axis": 291
+                    }, {
+                      "x_axis": "Asia",
+                      "color": "Program Management",
+                      "y_axis": 98
+                    }, {
+                      "x_axis": "Asia",
+                      "color": "Testing & QA",
+                      "y_axis": 293
+                    }, {
+                      "x_axis": "Asia",
+                      "color": "User Experience",
+                      "y_axis": 59
+                    }, {
+                      "x_axis": "Europe",
+                      "color": "Analytics",
+                      "y_axis": 26
+                    }, {
+                      "x_axis": "Europe",
+                      "color": "Architects",
+                      "y_axis": 2
+                    }, {
+                      "x_axis": "Europe",
+                      "color": "Business Operations",
+                      "y_axis": 3
+                    }, {
+                      "x_axis": "Europe",
+                      "color": "Data Engineers",
+                      "y_axis": 6
+                    }, {
+                      "x_axis": "Europe",
+                      "color": "Developers",
+                      "y_axis": 5
+                    }, {
+                      "x_axis": "Europe",
+                      "color": "Knowledge Management",
+                      "y_axis": 1
+                    }, {
+                      "x_axis": "Europe",
+                      "color": "Program Management",
+                      "y_axis": 1
+                    }, {
+                      "x_axis": "Europe",
+                      "color": "User Experience",
+                      "y_axis": 1
+                    }, {
+                      "x_axis": "NA (East)",
+                      "color": "Analytics",
+                      "y_axis": 191
+                    }, {
+                      "x_axis": "NA (East)",
+                      "color": "Architects",
+                      "y_axis": 19
+                    }, {
+                      "x_axis": "NA (East)",
+                      "color": "Business Operations",
+                      "y_axis": 73
+                    }, {
+                      "x_axis": "NA (East)",
+                      "color": "Data Engineers",
+                      "y_axis": 70
+                    }, {
+                      "x_axis": "NA (East)",
+                      "color": "Developers",
+                      "y_axis": 56
+                    }, {
+                      "x_axis": "NA (East)",
+                      "color": "Knowledge Management",
+                      "y_axis": 1
+                    }, {
+                      "x_axis": "NA (East)",
+                      "color": "Program Management",
+                      "y_axis": 9
+                    }, {
+                      "x_axis": "NA (East)",
+                      "color": "User Experience",
+                      "y_axis": 6
+                    }, {
+                      "x_axis": "NA (West)",
+                      "color": "Analytics",
+                      "y_axis": 175
+                    }, {
+                      "x_axis": "NA (West)",
+                      "color": "Architects",
+                      "y_axis": 16
+                    }, {
+                      "x_axis": "NA (West)",
+                      "color": "Business Operations",
+                      "y_axis": 81
+                    }, {
+                      "x_axis": "NA (West)",
+                      "color": "Data Engineers",
+                      "y_axis": 60
+                    }, {
+                      "x_axis": "NA (West)",
+                      "color": "Developers",
+                      "y_axis": 49
+                    }, {
+                      "x_axis": "NA (West)",
+                      "color": "Knowledge Management",
+                      "y_axis": 1
+                    }, {
+                      "x_axis": "NA (West)",
+                      "color": "Program Management",
+                      "y_axis": 8
+                    }, {
+                      "x_axis": "NA (West)",
+                      "color": "User Experience",
+                      "y_axis": 5
+                    }]
+                  }
+                },
+                "html": {
+                  "heading": "Interactivities",
+                  "para": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
+                  "footer": "Hover over any element"
+                }
+            },
+            {
+                "pos":3,
+                "chart_type":"image_map1",
+                "dataset_name": "GLBD3JSTESTING.prp_finland_tenders_final_data_pq",
+                "title": "Sunburst",
+                "layout": "right-text",
+                "x_axis": "competitor, substances_grouped, marketing_company",
+                "value_radius": "row_count",
+                "value_agg": "sum",
+                "color": "color_key",
+				"img_name":"combine1.png",
+                "ischildren": 0.0,
+                "isdropdown": 0.0,
+                "clicktofilter": 0.0,
+                "clickchildren": {},
+				"children": {},
+                "html": {
+                    "heading": "4 Groups",
+                    "subheading": "Sub Heading",
+                    "para": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    ],
+                    "footer": "Click on any layer to dive deeper"
+                }
+            },
+			{
+                "pos": 7,
+                "dataset_name": "GLBD3JSTESTING.prp_finland_tenders_final_data_pq",
+                "chart_type": "illu_image",
+                "title": "Scatter_plot3",
+                "img_name": "last_gif.gif",
+                "layout": "left-text",
+                "x_axis": "predicted_ref_actual_ref_percent_difference",
+                "x_axis_agg": "mean",
+                "y_axis": "market_share_units_percent_diff",
+                "y_axis_agg": "mean",
+                "x_axis_label": "Actual vs Predicted Ref Price",
+                "y_axis_label": "Market Share Change",
+                "value_radius": "row_count",
+                "value_agg": "max",
+                "lod": "marketing_company",
+                "color": "substances_grouped",
+                "ischildren": 0.0,
+                "isinteractive": 0.0,
+                "isdropdown": 0.0,
+                "clicktofilter": 1.0,
+                "clickchildren": {},
+                "filtersource": "color",
+                "data": [
+                    {
+                        "color": "alprazolam",
+                        "marketing_company": "krka",
+                        "value": 1,
+                        "y_axis": -0.0661206897,
+                        "x_axis": 0.019137931
+                    },
+                    {
+                        "color": "alprazolam",
+                        "marketing_company": "orion pharma",
+                        "value": 1,
+                        "y_axis": -0.0220114943,
+                        "x_axis": 0.0258045977
+                    },
+                    {
+                        "color": "alprazolam",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0329401408,
+                        "x_axis": 0.023137931
+                    },
+                    {
+                        "color": "amlodipine",
+                        "marketing_company": "accord healthcare",
+                        "value": 1,
+                        "y_axis": -2.04,
+                        "x_axis": 0.08
+                    },
+                    {
+                        "color": "amlodipine",
+                        "marketing_company": "krka",
+                        "value": 1,
+                        "y_axis": -0.0477155172,
+                        "x_axis": 0.0895689655
+                    },
+                    {
+                        "color": "amlodipine",
+                        "marketing_company": "orion pharma",
+                        "value": 1,
+                        "y_axis": 0.0043269231,
+                        "x_axis": 0.0659375
+                    },
+                    {
+                        "color": "amlodipine",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0579032258,
+                        "x_axis": 0.0895689655
+                    },
+                    {
+                        "color": "amlodipine",
+                        "marketing_company": "ratiopharm",
+                        "value": 1,
+                        "y_axis": -0.0947894737,
+                        "x_axis": 0.0902463054
+                    },
+                    {
+                        "color": "amlodipine",
+                        "marketing_company": "sandoz",
+                        "value": 1,
+                        "y_axis": -0.1017241379,
+                        "x_axis": 0.0934482759
+                    },
+                    {
+                        "color": "atorvastatin",
+                        "marketing_company": "accord healthcare",
+                        "value": 1,
+                        "y_axis": -1.8258823529,
+                        "x_axis": 0.1145833333
+                    },
+                    {
+                        "color": "atorvastatin",
+                        "marketing_company": "krka",
+                        "value": 1,
+                        "y_axis": -0.1727391304,
+                        "x_axis": 0.1353017241
+                    },
+                    {
+                        "color": "atorvastatin",
+                        "marketing_company": "orifarm",
+                        "value": 1,
+                        "y_axis": 0.0276923077,
+                        "x_axis": 0.0
+                    },
+                    {
+                        "color": "atorvastatin",
+                        "marketing_company": "orion pharma",
+                        "value": 1,
+                        "y_axis": -0.036768559,
+                        "x_axis": 0.1353017241
+                    },
+                    {
+                        "color": "atorvastatin",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.074115899,
+                        "x_axis": 0.1319748779
+                    },
+                    {
+                        "color": "atorvastatin",
+                        "marketing_company": "ratiopharm",
+                        "value": 1,
+                        "y_axis": -0.2086637931,
+                        "x_axis": 0.1353017241
+                    },
+                    {
+                        "color": "atorvastatin",
+                        "marketing_company": "sandoz",
+                        "value": 1,
+                        "y_axis": -0.6781987578,
+                        "x_axis": 0.2314942529
+                    },
+                    {
+                        "color": "atorvastatin",
+                        "marketing_company": "stada nordic",
+                        "value": 1,
+                        "y_axis": -1.60875,
+                        "x_axis": 0.2073793103
+                    },
+                    {
+                        "color": "axitinib",
+                        "marketing_company": "abacus medicine",
+                        "value": 1,
+                        "y_axis": 0.047,
+                        "x_axis": 0.02
+                    },
+                    {
+                        "color": "axitinib",
+                        "marketing_company": "orifarm",
+                        "value": 1,
+                        "y_axis": -0.1277777778,
+                        "x_axis": 0.0155
+                    },
+                    {
+                        "color": "axitinib",
+                        "marketing_company": "paranova",
+                        "value": 1,
+                        "y_axis": -0.0621568627,
+                        "x_axis": 0.0134782609
+                    },
+                    {
+                        "color": "axitinib",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.2396078431,
+                        "x_axis": 0.0134782609
+                    },
+                    {
+                        "color": "azithromycin",
+                        "marketing_company": "krka",
+                        "value": 1,
+                        "y_axis": -0.1272413793,
+                        "x_axis": 0.0837931034
+                    },
+                    {
+                        "color": "azithromycin",
+                        "marketing_company": "mylan finland",
+                        "value": 1,
+                        "y_axis": -0.46,
+                        "x_axis": 0.0231372549
+                    },
+                    {
+                        "color": "azithromycin",
+                        "marketing_company": "orion pharma",
+                        "value": 1,
+                        "y_axis": -0.0326315789,
+                        "x_axis": 0.09
+                    },
+                    {
+                        "color": "azithromycin",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0347413793,
+                        "x_axis": 0.0384482759
+                    },
+                    {
+                        "color": "azithromycin",
+                        "marketing_company": "ratiopharm",
+                        "value": 1,
+                        "y_axis": -0.0456896552,
+                        "x_axis": 0.0482758621
+                    },
+                    {
+                        "color": "azithromycin",
+                        "marketing_company": "sandoz",
+                        "value": 1,
+                        "y_axis": -0.0655603448,
+                        "x_axis": 0.0384482759
+                    },
+                    {
+                        "color": "azithromycin",
+                        "marketing_company": "stada nordic",
+                        "value": 1,
+                        "y_axis": -0.459137931,
+                        "x_axis": 0.0837931034
+                    },
+                    {
+                        "color": "celecoxib",
+                        "marketing_company": "krka",
+                        "value": 1,
+                        "y_axis": -0.0525172414,
+                        "x_axis": 0.0531724138
+                    },
+                    {
+                        "color": "celecoxib",
+                        "marketing_company": "orion pharma",
+                        "value": 1,
+                        "y_axis": -0.0068584071,
+                        "x_axis": 0.0618103448
+                    },
+                    {
+                        "color": "celecoxib",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0372972973,
+                        "x_axis": 0.0551724138
+                    },
+                    {
+                        "color": "celecoxib",
+                        "marketing_company": "sandoz",
+                        "value": 1,
+                        "y_axis": -0.0704545455,
+                        "x_axis": 0.05848
+                    },
+                    {
+                        "color": "celecoxib",
+                        "marketing_company": "stada nordic",
+                        "value": 1,
+                        "y_axis": -0.2041346154,
+                        "x_axis": 0.0576724138
+                    },
+                    {
+                        "color": "clindamycin",
+                        "marketing_company": "mip pharma",
+                        "value": 1,
+                        "y_axis": -0.4541071429,
+                        "x_axis": 0.0031034483
+                    },
+                    {
+                        "color": "clindamycin",
+                        "marketing_company": "orifarm",
+                        "value": 1,
+                        "y_axis": -0.0955,
+                        "x_axis": 0.0402173913
+                    },
+                    {
+                        "color": "clindamycin",
+                        "marketing_company": "orion pharma",
+                        "value": 1,
+                        "y_axis": -0.0393076923,
+                        "x_axis": 0.0379699248
+                    },
+                    {
+                        "color": "clindamycin",
+                        "marketing_company": "paranova",
+                        "value": 1,
+                        "y_axis": -0.1082222222,
+                        "x_axis": 0.0745
+                    },
+                    {
+                        "color": "clindamycin",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0155,
+                        "x_axis": 0.0212857143
+                    },
+                    {
+                        "color": "clindamycin",
+                        "marketing_company": "sandoz",
+                        "value": 1,
+                        "y_axis": null,
+                        "x_axis": 0.0037113402
+                    },
+                    {
+                        "color": "crizotinib",
+                        "marketing_company": "orifarm",
+                        "value": 1,
+                        "y_axis": -0.2342857143,
+                        "x_axis": 0.0
+                    },
+                    {
+                        "color": "crizotinib",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": 0.0545454545,
+                        "x_axis": 0.0
+                    },
+                    {
+                        "color": "dalteparin",
+                        "marketing_company": "orifarm",
+                        "value": 1,
+                        "y_axis": -0.4176470588,
+                        "x_axis": 0.005
+                    },
+                    {
+                        "color": "dalteparin",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0558823529,
+                        "x_axis": 0.005
+                    },
+                    {
+                        "color": "donepezil",
+                        "marketing_company": "accord healthcare",
+                        "value": 1,
+                        "y_axis": -0.2901538462,
+                        "x_axis": 0.0827659574
+                    },
+                    {
+                        "color": "donepezil",
+                        "marketing_company": "krka",
+                        "value": 1,
+                        "y_axis": -0.0855813953,
+                        "x_axis": 0.0179787234
+                    },
+                    {
+                        "color": "donepezil",
+                        "marketing_company": "orifarm generics",
+                        "value": 1,
+                        "y_axis": 0.5,
+                        "x_axis": 0.0233333333
+                    },
+                    {
+                        "color": "donepezil",
+                        "marketing_company": "orion pharma",
+                        "value": 1,
+                        "y_axis": -0.0088829787,
+                        "x_axis": 0.0179787234
+                    },
+                    {
+                        "color": "donepezil",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.223,
+                        "x_axis": 0.0183695652
+                    },
+                    {
+                        "color": "donepezil",
+                        "marketing_company": "ratiopharm",
+                        "value": 1,
+                        "y_axis": -5.0862352941,
+                        "x_axis": 0.037962963
+                    },
+                    {
+                        "color": "donepezil",
+                        "marketing_company": "sanoswiss uab",
+                        "value": 1,
+                        "y_axis": -0.1158510638,
+                        "x_axis": 0.071
+                    },
+                    {
+                        "color": "eletriptan",
+                        "marketing_company": "mylan finland",
+                        "value": 1,
+                        "y_axis": -0.815,
+                        "x_axis": 0.1725
+                    },
+                    {
+                        "color": "eletriptan",
+                        "marketing_company": "orifarm generics",
+                        "value": 1,
+                        "y_axis": -0.1387931034,
+                        "x_axis": 0.0812068966
+                    },
+                    {
+                        "color": "eletriptan",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0377678571,
+                        "x_axis": 0.0812068966
+                    },
+                    {
+                        "color": "epoetin",
+                        "marketing_company": "abacus medicine",
+                        "value": 1,
+                        "y_axis": -0.0670422535,
+                        "x_axis": 0.0156666667
+                    },
+                    {
+                        "color": "epoetin",
+                        "marketing_company": "orifarm",
+                        "value": 1,
+                        "y_axis": 0.0146666667,
+                        "x_axis": 0.052
+                    },
+                    {
+                        "color": "epoetin",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.2404,
+                        "x_axis": 0.0156666667
+                    },
+                    {
+                        "color": "estramustine",
+                        "marketing_company": "paranova",
+                        "value": 1,
+                        "y_axis": -0.0202702703,
+                        "x_axis": 0.0273913043
+                    },
+                    {
+                        "color": "estramustine",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.1526829268,
+                        "x_axis": 0.0273913043
+                    },
+                    {
+                        "color": "exemestane",
+                        "marketing_company": "accord healthcare",
+                        "value": 1,
+                        "y_axis": -1.2969565217,
+                        "x_axis": 0.0275862069
+                    },
+                    {
+                        "color": "exemestane",
+                        "marketing_company": "avansor pharma",
+                        "value": 1,
+                        "y_axis": -0.0392857143,
+                        "x_axis": 0.052
+                    },
+                    {
+                        "color": "exemestane",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.2060185185,
+                        "x_axis": 0.0275862069
+                    },
+                    {
+                        "color": "filgrastim",
+                        "marketing_company": "abacus medicine",
+                        "value": 1,
+                        "y_axis": -0.068125,
+                        "x_axis": 0.0978571429
+                    },
+                    {
+                        "color": "filgrastim",
+                        "marketing_company": "orifarm",
+                        "value": 1,
+                        "y_axis": -0.0718627451,
+                        "x_axis": 0.0693478261
+                    },
+                    {
+                        "color": "filgrastim",
+                        "marketing_company": "paranova",
+                        "value": 1,
+                        "y_axis": -0.0451960784,
+                        "x_axis": 0.0693478261
+                    },
+                    {
+                        "color": "filgrastim",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.3847826087,
+                        "x_axis": 0.0693478261
+                    },
+                    {
+                        "color": "fluconazole",
+                        "marketing_company": "krka",
+                        "value": 1,
+                        "y_axis": -0.1054093567,
+                        "x_axis": 0.0025862069
+                    },
+                    {
+                        "color": "fluconazole",
+                        "marketing_company": "orifarm",
+                        "value": 1,
+                        "y_axis": -0.8595238095,
+                        "x_axis": 0.02
+                    },
+                    {
+                        "color": "fluconazole",
+                        "marketing_company": "orion pharma",
+                        "value": 1,
+                        "y_axis": -0.0154679803,
+                        "x_axis": -0.0007881773
+                    },
+                    {
+                        "color": "fluconazole",
+                        "marketing_company": "paranova",
+                        "value": 1,
+                        "y_axis": -0.1028333333,
+                        "x_axis": 0.0317857143
+                    },
+                    {
+                        "color": "fluconazole",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0381205674,
+                        "x_axis": -0.0007881773
+                    },
+                    {
+                        "color": "gabapentin",
+                        "marketing_company": "2care4",
+                        "value": 1,
+                        "y_axis": -1.2560606061,
+                        "x_axis": 0.09
+                    },
+                    {
+                        "color": "gabapentin",
+                        "marketing_company": "accord healthcare",
+                        "value": 1,
+                        "y_axis": -0.074368932,
+                        "x_axis": 0.0316190476
+                    },
+                    {
+                        "color": "gabapentin",
+                        "marketing_company": "orifarm",
+                        "value": 1,
+                        "y_axis": -0.0483333333,
+                        "x_axis": 0.0265384615
+                    },
+                    {
+                        "color": "gabapentin",
+                        "marketing_company": "orion pharma",
+                        "value": 1,
+                        "y_axis": -0.0053333333,
+                        "x_axis": 0.0212307692
+                    },
+                    {
+                        "color": "gabapentin",
+                        "marketing_company": "paranova",
+                        "value": 1,
+                        "y_axis": -0.2266666667,
+                        "x_axis": 0.0265384615
+                    },
+                    {
+                        "color": "gabapentin",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0043859649,
+                        "x_axis": 0.0212307692
+                    },
+                    {
+                        "color": "gabapentin",
+                        "marketing_company": "ratiopharm",
+                        "value": 1,
+                        "y_axis": -0.0416363636,
+                        "x_axis": 0.0389285714
+                    },
+                    {
+                        "color": "gabapentin",
+                        "marketing_company": "sandoz",
+                        "value": 1,
+                        "y_axis": -0.2266521739,
+                        "x_axis": 0.0211607143
+                    },
+                    {
+                        "color": "latanoprost",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0077058824,
+                        "x_axis": 0.0202352941
+                    },
+                    {
+                        "color": "latanoprost",
+                        "marketing_company": "ratiopharm",
+                        "value": 1,
+                        "y_axis": -0.0345,
+                        "x_axis": 0.0198113208
+                    },
+                    {
+                        "color": "latanoprost",
+                        "marketing_company": "sandoz",
+                        "value": 1,
+                        "y_axis": -0.0269047619,
+                        "x_axis": 0.0180357143
+                    },
+                    {
+                        "color": "latanoprost",
+                        "marketing_company": "stada nordic",
+                        "value": 1,
+                        "y_axis": -0.3767241379,
+                        "x_axis": 0.0244827586
+                    },
+                    {
+                        "color": "latanoprost,",
+                        "marketing_company": "paranova",
+                        "value": 1,
+                        "y_axis": -0.2394594595,
+                        "x_axis": 0.065
+                    },
+                    {
+                        "color": "latanoprost,",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0118181818,
+                        "x_axis": 0.0418181818
+                    },
+                    {
+                        "color": "latanoprost,",
+                        "marketing_company": "sandoz",
+                        "value": 1,
+                        "y_axis": 0.0,
+                        "x_axis": 0.0335294118
+                    },
+                    {
+                        "color": "latanoprost,",
+                        "marketing_company": "stada nordic",
+                        "value": 1,
+                        "y_axis": -0.8764285714,
+                        "x_axis": 0.0551724138
+                    },
+                    {
+                        "color": "linezolid",
+                        "marketing_company": "accord healthcare",
+                        "value": 1,
+                        "y_axis": -0.7247222222,
+                        "x_axis": 0.0906896552
+                    },
+                    {
+                        "color": "linezolid",
+                        "marketing_company": "avansor pharma",
+                        "value": 1,
+                        "y_axis": -0.2403448276,
+                        "x_axis": 0.0906896552
+                    },
+                    {
+                        "color": "linezolid",
+                        "marketing_company": "krka",
+                        "value": 1,
+                        "y_axis": -0.4104,
+                        "x_axis": 0.0906896552
+                    },
+                    {
+                        "color": "linezolid",
+                        "marketing_company": "orion pharma",
+                        "value": 1,
+                        "y_axis": -0.1364705882,
+                        "x_axis": 0.0919230769
+                    },
+                    {
+                        "color": "linezolid",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.569787234,
+                        "x_axis": 0.0810679612
+                    },
+                    {
+                        "color": "linezolid",
+                        "marketing_company": "sandoz",
+                        "value": 1,
+                        "y_axis": -0.4908695652,
+                        "x_axis": 0.0906896552
+                    },
+                    {
+                        "color": "lorazepam",
+                        "marketing_company": "orifarm generics",
+                        "value": 1,
+                        "y_axis": -0.08375,
+                        "x_axis": 0.0410344828
+                    },
+                    {
+                        "color": "lorazepam",
+                        "marketing_company": "orion pharma",
+                        "value": 1,
+                        "y_axis": -0.0262068966,
+                        "x_axis": 0.0410344828
+                    },
+                    {
+                        "color": "lorazepam",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0065517241,
+                        "x_axis": 0.0410344828
+                    },
+                    {
+                        "color": "methylprednisolone",
+                        "marketing_company": "orifarm",
+                        "value": 1,
+                        "y_axis": -1.2785714286,
+                        "x_axis": 0.04
+                    },
+                    {
+                        "color": "methylprednisolone",
+                        "marketing_company": "orion pharma",
+                        "value": 1,
+                        "y_axis": -0.0447619048,
+                        "x_axis": 0.015
+                    },
+                    {
+                        "color": "methylprednisolone",
+                        "marketing_company": "paranova",
+                        "value": 1,
+                        "y_axis": -0.1246666667,
+                        "x_axis": 0.026
+                    },
+                    {
+                        "color": "methylprednisolone",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0271666667,
+                        "x_axis": 0.0069444444
+                    },
+                    {
+                        "color": "piroxicam",
+                        "marketing_company": "paranova",
+                        "value": 1,
+                        "y_axis": -0.04125,
+                        "x_axis": 0.0155172414
+                    },
+                    {
+                        "color": "piroxicam",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.035862069,
+                        "x_axis": 0.0155172414
+                    },
+                    {
+                        "color": "piroxicam",
+                        "marketing_company": "ratiopharm",
+                        "value": 1,
+                        "y_axis": -0.0148275862,
+                        "x_axis": 0.0155172414
+                    },
+                    {
+                        "color": "pregabalin",
+                        "marketing_company": "abacus medicine",
+                        "value": 1,
+                        "y_axis": 0.0758823529,
+                        "x_axis": 0.02875
+                    },
+                    {
+                        "color": "pregabalin",
+                        "marketing_company": "accord healthcare",
+                        "value": 1,
+                        "y_axis": -0.3515116279,
+                        "x_axis": 0.1690625
+                    },
+                    {
+                        "color": "pregabalin",
+                        "marketing_company": "orifarm",
+                        "value": 1,
+                        "y_axis": -0.1085393258,
+                        "x_axis": -0.0082894737
+                    },
+                    {
+                        "color": "pregabalin",
+                        "marketing_company": "orion pharma",
+                        "value": 1,
+                        "y_axis": -0.4820512821,
+                        "x_axis": 0.0233173077
+                    },
+                    {
+                        "color": "pregabalin",
+                        "marketing_company": "paranova",
+                        "value": 1,
+                        "y_axis": -0.1025170068,
+                        "x_axis": -0.00075
+                    },
+                    {
+                        "color": "pregabalin",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0158097166,
+                        "x_axis": 0.0228828829
+                    },
+                    {
+                        "color": "pregabalin",
+                        "marketing_company": "ratiopharm",
+                        "value": 1,
+                        "y_axis": -0.1815503876,
+                        "x_axis": 0.0268131868
+                    },
+                    {
+                        "color": "pregabalin",
+                        "marketing_company": "sandoz",
+                        "value": 1,
+                        "y_axis": -0.1829710145,
+                        "x_axis": 0.0322463768
+                    },
+                    {
+                        "color": "pregabalin",
+                        "marketing_company": "stada nordic",
+                        "value": 1,
+                        "y_axis": -0.2399135447,
+                        "x_axis": 0.0268131868
+                    },
+                    {
+                        "color": "sertraline",
+                        "marketing_company": "accord healthcare",
+                        "value": 1,
+                        "y_axis": -3.4619354839,
+                        "x_axis": 0.1714285714
+                    },
+                    {
+                        "color": "sertraline",
+                        "marketing_company": "krka",
+                        "value": 1,
+                        "y_axis": -0.3136764706,
+                        "x_axis": 0.1473913043
+                    },
+                    {
+                        "color": "sertraline",
+                        "marketing_company": "orion pharma",
+                        "value": 1,
+                        "y_axis": -0.015375,
+                        "x_axis": 0.1476
+                    },
+                    {
+                        "color": "sertraline",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.087,
+                        "x_axis": 0.1445522388
+                    },
+                    {
+                        "color": "sertraline",
+                        "marketing_company": "ratiopharm",
+                        "value": 1,
+                        "y_axis": -0.1479850746,
+                        "x_axis": 0.1473913043
+                    },
+                    {
+                        "color": "sertraline",
+                        "marketing_company": "sandoz",
+                        "value": 1,
+                        "y_axis": -0.08125,
+                        "x_axis": 0.1473913043
+                    },
+                    {
+                        "color": "sildenafil",
+                        "marketing_company": "accord healthcare",
+                        "value": 1,
+                        "y_axis": -1.0231944444,
+                        "x_axis": 0.3339325843
+                    },
+                    {
+                        "color": "sildenafil",
+                        "marketing_company": "krka",
+                        "value": 1,
+                        "y_axis": -0.00328125,
+                        "x_axis": 0.1072307692
+                    },
+                    {
+                        "color": "sildenafil",
+                        "marketing_company": "mylan finland",
+                        "value": 1,
+                        "y_axis": -0.22,
+                        "x_axis": 0.5935
+                    },
+                    {
+                        "color": "sildenafil",
+                        "marketing_company": "orion pharma",
+                        "value": 1,
+                        "y_axis": -0.203248731,
+                        "x_axis": 0.1442
+                    },
+                    {
+                        "color": "sildenafil",
+                        "marketing_company": "paranova",
+                        "value": 1,
+                        "y_axis": null,
+                        "x_axis": 0.522
+                    },
+                    {
+                        "color": "sildenafil",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0785777778,
+                        "x_axis": 0.1608849558
+                    },
+                    {
+                        "color": "sildenafil",
+                        "marketing_company": "ratiopharm",
+                        "value": 1,
+                        "y_axis": -2.4706918239,
+                        "x_axis": 0.1894610778
+                    },
+                    {
+                        "color": "sildenafil",
+                        "marketing_company": "sandoz",
+                        "value": 1,
+                        "y_axis": -0.1143396226,
+                        "x_axis": 0.1825641026
+                    },
+                    {
+                        "color": "sildenafil",
+                        "marketing_company": "stada nordic",
+                        "value": 1,
+                        "y_axis": -0.3817525773,
+                        "x_axis": 0.3042857143
+                    },
+                    {
+                        "color": "somatropin",
+                        "marketing_company": "paranova",
+                        "value": 1,
+                        "y_axis": -0.3433333333,
+                        "x_axis": 0.0
+                    },
+                    {
+                        "color": "somatropin",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0190909091,
+                        "x_axis": 0.0
+                    },
+                    {
+                        "color": "sulfasalazine",
+                        "marketing_company": "paranova",
+                        "value": 1,
+                        "y_axis": -0.0452941176,
+                        "x_axis": 0.0013043478
+                    },
+                    {
+                        "color": "sulfasalazine",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0045098039,
+                        "x_axis": 0.0013043478
+                    },
+                    {
+                        "color": "tofacitinib",
+                        "marketing_company": "abacus medicine",
+                        "value": 1,
+                        "y_axis": -9.424,
+                        "x_axis": null
+                    },
+                    {
+                        "color": "tofacitinib",
+                        "marketing_company": "orifarm",
+                        "value": 1,
+                        "y_axis": -0.3814285714,
+                        "x_axis": 0.19
+                    },
+                    {
+                        "color": "tofacitinib",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": 0.0633333333,
+                        "x_axis": 0.19
+                    },
+                    {
+                        "color": "tolterodine",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.1745714286,
+                        "x_axis": 0.0262068966
+                    },
+                    {
+                        "color": "tolterodine",
+                        "marketing_company": "ratiopharm",
+                        "value": 1,
+                        "y_axis": -0.0115789474,
+                        "x_axis": 0.0262068966
+                    },
+                    {
+                        "color": "tolterodine",
+                        "marketing_company": "sandoz",
+                        "value": 1,
+                        "y_axis": -0.0816071429,
+                        "x_axis": 0.0262068966
+                    },
+                    {
+                        "color": "tolterodine",
+                        "marketing_company": "sanoswiss uab",
+                        "value": 1,
+                        "y_axis": -0.4377678571,
+                        "x_axis": 0.0262068966
+                    },
+                    {
+                        "color": "vareniclin",
+                        "marketing_company": "orifarm",
+                        "value": 1,
+                        "y_axis": -0.0096296296,
+                        "x_axis": 7.885106709e-19
+                    },
+                    {
+                        "color": "vareniclin",
+                        "marketing_company": "paranova",
+                        "value": 1,
+                        "y_axis": -8.5081481481,
+                        "x_axis": 3.336006685e-19
+                    },
+                    {
+                        "color": "vareniclin",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0088709677,
+                        "x_axis": 2.668805348e-19
+                    },
+                    {
+                        "color": "venlafaxine",
+                        "marketing_company": "krka",
+                        "value": 1,
+                        "y_axis": -0.0247008547,
+                        "x_axis": 0.0011965812
+                    },
+                    {
+                        "color": "venlafaxine",
+                        "marketing_company": "orion pharma",
+                        "value": 1,
+                        "y_axis": -0.0169318182,
+                        "x_axis": -0.0127272727
+                    },
+                    {
+                        "color": "venlafaxine",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0129310345,
+                        "x_axis": 0.0011965812
+                    },
+                    {
+                        "color": "venlafaxine",
+                        "marketing_company": "ratiopharm",
+                        "value": 1,
+                        "y_axis": -0.0355263158,
+                        "x_axis": 0.0075342466
+                    },
+                    {
+                        "color": "venlafaxine",
+                        "marketing_company": "sandoz",
+                        "value": 1,
+                        "y_axis": null,
+                        "x_axis": -0.0146601942
+                    },
+                    {
+                        "color": "voriconazole",
+                        "marketing_company": "accord healthcare",
+                        "value": 1,
+                        "y_axis": -0.2529411765,
+                        "x_axis": 0.1374545455
+                    },
+                    {
+                        "color": "voriconazole",
+                        "marketing_company": "orion pharma",
+                        "value": 1,
+                        "y_axis": -0.3264814815,
+                        "x_axis": 0.1896551724
+                    },
+                    {
+                        "color": "voriconazole",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.2310185185,
+                        "x_axis": 0.1374545455
+                    },
+                    {
+                        "color": "voriconazole",
+                        "marketing_company": "sandoz",
+                        "value": 1,
+                        "y_axis": -0.11875,
+                        "x_axis": 0.1896551724
+                    },
+                    {
+                        "color": "ziprasidone",
+                        "marketing_company": "krka",
+                        "value": 1,
+                        "y_axis": -0.0487586207,
+                        "x_axis": 0.0032484076
+                    },
+                    {
+                        "color": "ziprasidone",
+                        "marketing_company": "pfizer",
+                        "value": 1,
+                        "y_axis": -0.0247586207,
+                        "x_axis": 0.0032484076
+                    }
+                ],
+                "children": {},
+                "html": {
+                    "heading": "Heading Title 17",
+                    "subheading": "Sub Heading",
+                    "para": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    ],
+                    "footer": "Hover over any element"
+                }
+            }
+			]
+    }
+}

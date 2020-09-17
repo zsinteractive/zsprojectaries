@@ -1,0 +1,885 @@
+{
+    "api_data": {
+        "heading": "",
+        "header_img": "aries_logo.png",
+        "d3_color_scheme": "interpolatePlasma",
+        "title_text":"<p><span style=\"font-size: 60px; font-family: Arial, Helvetica, sans-serif;\"><strong><span style=\"color: rgb(0, 0, 0);\">ZS Innovation Story</span></strong></span></p>",
+		"defined_colors": {
+            "Asia": "#1A1628",
+            "Europe": "#EC7200",
+            "NA (East)": "#32A29B",
+            "NA (West)": "#EAC959",
+            "Program Management": "#408CFF",
+            "Analytics": "#7FD07D",
+            "User Experience": "#8F5AFF"
+        },
+        "end_heading": "Thank You",
+        "end_note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum, sapien id ullamcorper vehicula, eros dolor feugiat ipsum, nec tincidunt sem ex vitae tellus. Curabitur porttitor blandit massa at posuere. Cras faucibus nibh a dui eleifend, et suscipit quam laoreet. Mauris a urna eu magna tincidunt malesuada in commodo erat. Ut in aliquet nibh, quis molestie velit. Suspendisse pharetra nisi sit amet fermentum dapibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum metus ligula, tempus vel scelerisque porttitor, porta ac tortor.",
+        "data": [
+			{
+                "pos": 0,
+                "dataset_name": "GLBD3JSTESTING.prp_finland_tenders_final_data_pq",
+                "chart_type": "illu_image",
+                "title": "bubble",
+                "layout": "left-text",
+                "x_axis": "sales",
+                "x_axis_agg": "sum",
+                "x_axis_label": "Sales ($)",
+                "value_radius": "retail_price",
+                "value_agg": "mean",
+                "lod": "substances_grouped",
+                "color": "marketing_company",
+				        "img_name":"ZS_Logo.png",
+                "ischildren": 0.0,
+                "isdropdown": 0.0,
+                "clicktofilter": 0.0,
+                "clickchildren": {},
+				        "children": {},
+                "html": {
+                    "heading": "Heading Title",
+                    "subheading": "Sub Heading",
+                    "para": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    ],
+                    "footer": ""
+                }
+      },
+			{
+                "pos": 1,
+                "dataset_name": "GLBD3JSTESTING.prp_finland_tenders_final_data_pq",
+                "chart_type": "multi_image",
+                "title": "bubble",
+                "layout": "center-top",
+                "x_axis": "sales",
+                "x_axis_agg": "sum",
+                "x_axis_label": "Sales ($)",
+                "value_radius": "retail_price",
+                "value_agg": "mean",
+                "lod": "substances_grouped",
+                "color": "marketing_company",
+				        "img_name":["p1.png", "p2.png", "p3.png", "p4.png", "p5.png"],
+                "ischildren": 0.0,
+                "isdropdown": 0.0,
+                "clicktofilter": 0.0,
+                "clickchildren": {},
+				"children": {},
+                "html": {
+                    "heading": "Our evolution as a company has been deeply rooted in innovation since 1983",
+                    "subheading": "Sub Heading",
+                    "para": [
+                        ""
+                    ],
+                    "footer": ""
+                }
+      },
+			{
+                "pos": 2,
+                "dataset_name": "GLBD3JSTESTING.prp_finland_tenders_final_data_pq",
+                "chart_type": "packed_bubble_chart",
+                "title": " ZS Capabilities",
+                "layout": "left-text",
+                "x_axis": "competitor, substances_grouped, marketing_company",
+                "value_radius": "row_count",
+                "value_agg": "sum",
+                "color": "color_key",
+                "ischildren": 0.0,
+                "button_or_dropdown": "button",
+                "isdropdown": 0.0,
+                "clicktofilter": 0.0,
+                "children": {},
+                "clickchildren": {},
+                "data": {
+                  "name": "root",
+                  "children": [{
+                    "name": "AI",
+                    "children": [{
+                      "name": "Advanced NLP Ontologies",
+                      "children": [{
+                        "name": "Advanced NLP Ontologies",
+                        "size": 1
+                      }]
+                    }, {
+                      "name": "Computer Vision",
+                      "children": [{
+                        "name": "Computer Vision",
+                        "size": 1
+                      }]
+                    }, {
+                      "name": "Driverless Forecasting",
+                      "children": [{
+                        "name": "Driverless Forecasting",
+                        "size": 1
+                      }]
+                    }, {
+                      "name": "Plug n Predict",
+                      "children": [{
+                        "name": "Plug n Predict",
+                        "size": 1
+                      }]
+                    }, {
+                      "name": "Video & Audio Analytics",
+                      "children": [{
+                        "name": "Video & Audio Analytics",
+                        "size": 1
+                      }]
+                    }]
+                  }, {
+                    "name": "Big Data",
+                    "children": [{
+                      "name": "Applications",
+                      "children": [{
+                        "name": "Data Marketplace",
+                        "size": 1
+                      }, {
+                        "name": "GraphQL based service",
+                        "size": 1
+                      }]
+                    }, {
+                      "name": "Data Semantic Processors",
+                      "children": [{
+                        "name": "Data Crawler",
+                        "size": 1
+                      }, {
+                        "name": "Data Profiler",
+                        "size": 1
+                      }, {
+                        "name": "Data Tagger",
+                        "size": 1
+                      }, {
+                        "name": "Entity Extractor",
+                        "size": 1
+                      }, {
+                        "name": "Text Processor",
+                        "size": 1
+                      }]
+                    }, {
+                      "name": "Knowledge Graph Utilities",
+                      "children": [{
+                        "name": "Custom Ontology Ingestion",
+                        "size": 1
+                      }, {
+                        "name": "Ontology Management",
+                        "size": 1
+                      }, {
+                        "name": "Property Graph Ingestion",
+                        "size": 1
+                      }, {
+                        "name": "Public Ontology Integration",
+                        "size": 1
+                      }, {
+                        "name": "RDF Ingestion",
+                        "size": 1
+                      }, {
+                        "name": "Virtual Graph Ingestion",
+                        "size": 1
+                      }]
+                    }, {
+                      "name": "Search Utilities",
+                      "children": [{
+                        "name": "(Un)Strcutred Data Ingestion",
+                        "size": 1
+                      }, {
+                        "name": "Conversational Search",
+                        "size": 1
+                      }, {
+                        "name": "Embedding - based Search",
+                        "size": 1
+                      }, {
+                        "name": "Graph-aided Query",
+                        "size": 1
+                      }, {
+                        "name": "Ingestion from Graph",
+                        "size": 1
+                      }]
+                    }]
+                  }, {
+                    "name": "Products",
+                    "children": [{
+                      "name": "Javelin",
+                      "children": [{
+                        "name": "Commercial Planning Suite",
+                        "size": 1
+                      }, {
+                        "name": "Incentive Compensation Suite",
+                        "size": 1
+                      }]
+                    }, {
+                      "name": "REVO",
+                      "children": [{
+                        "name": "Brand Launch Analytics",
+                        "size": 1
+                      }, {
+                        "name": "Data & Analytics products",
+                        "size": 1
+                      }, {
+                        "name": "Digital Marketing Analytics",
+                        "size": 1
+                      }, {
+                        "name": "Event Based Patient Analytics",
+                        "size": 1
+                      }, {
+                        "name": "Healthcare Ecosystem Analytics",
+                        "size": 1
+                      }, {
+                        "name": "Managed Market Analytics",
+                        "size": 1
+                      }, {
+                        "name": "Medical Affairs Analytics",
+                        "size": 1
+                      }, {
+                        "name": "Patient 360 & Customer Analytics",
+                        "size": 1
+                      }, {
+                        "name": "Specialty & Sales Performance Analytics",
+                        "size": 1
+                      }]
+                    }, {
+                      "name": "VERSO",
+                      "children": [{
+                        "name": "Field Insights",
+                        "size": 1
+                      }, {
+                        "name": "Orchestration Engine",
+                        "size": 1
+                      }]
+                    }]
+                  }]
+                },
+        
+                "html": {
+                    "heading": "ZS portfolio of advanced data analytics and big data capabilities and products",
+                    "subheading": "Sub Heading",
+                    "para": [
+                        "We aim to drive customer value and company results with our analytics-powered software products and capabilities"
+                    ],
+                    "footer": "Click on any layer to dive deeper"
+                }
+      },
+      {
+        "pos": 3,
+        "dataset_name": "GLBD3JSTESTING.prp_finland_tenders_final_data_pq",
+        "chart_type": "illu_image",
+        "title": "bubble",
+        "layout": "center-top",
+        "x_axis": "sales",
+        "x_axis_agg": "sum",
+        "x_axis_label": "Sales ($)",
+        "value_radius": "retail_price",
+        "value_agg": "mean",
+        "lod": "substances_grouped",
+        "color": "marketing_company",
+        "img_name":"case1.png",
+        "ischildren": 0.0,
+        "isdropdown": 0.0,
+        "clicktofilter": 0.0,
+        "clickchildren": {},
+        "children": {},
+        "html": {
+          "heading": "",
+          "subheading": "Sub Heading",
+          "para": [
+              ""
+          ],
+          "footer": ""
+      }
+      },
+      {
+        "pos": 4,
+        "dataset_name": "GLBD3JSTESTING.prp_finland_tenders_final_data_pq",
+        "chart_type": "illu_image",
+        "title": "bubble",
+        "layout": "center-top",
+        "x_axis": "sales",
+        "x_axis_agg": "sum",
+        "x_axis_label": "Sales ($)",
+        "value_radius": "retail_price",
+        "value_agg": "mean",
+        "lod": "substances_grouped",
+        "color": "marketing_company",
+        "img_name":"case2.gif",
+        "ischildren": 0.0,
+        "isdropdown": 0.0,
+        "clicktofilter": 0.0,
+        "clickchildren": {},
+        "children": {},
+        "html": {
+          "heading": "<span style = 'color: black; font-size: 30px'>ZS AI Gallery | Plug-n-Predict intelligent feature discovery and modeling pipeline aimed to significantly accelerate the time to insight and action</span>",
+          "subheading": "Sub Heading",
+          "para": [
+              ""
+          ],
+          "footer": ""
+      }
+      },
+			{
+                "pos": 5,
+                "dataset_name": "GLBD3JSTESTING.prp_finland_tenders_final_data_pq",
+                "chart_type": "image_map",
+                "title": "Sunburst",
+                "layout": "right-text",
+                "x_axis": "competitor, substances_grouped, marketing_company",
+                "value_radius": "row_count",
+                "value_agg": "sum",
+                "color": "color_key",
+				        "img_name":"combine1.png",
+                "ischildren": 0.0,
+                "isdropdown": 0.0,
+                "clicktofilter": 0.0,
+                "clickchildren": {},
+                "button_or_dropdown": "button",
+                "children": {},
+                "html": {
+                    "heading": "Building an innovation culture and mindset is critical to ensuring a strong innovation pipeline",
+                    "subheading": "Sub Heading",
+                    "para": ["<div style='box-sizing: border-box; font-family: \"Segoe UI\", system-ui, \"Apple Color Emoji\", \"Segoe UI Emoji\", sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;'>    <ul>        <li style=\"font-size:15px;\"><span style=\"font-size:15px;\"><strong><span style=\"font-family: Arial, Helvetica, sans-serif;\"> </span></strong></span><span style=\"font-size: 15px;\"><strong><span style=\"font-family: Arial, Helvetica, sans-serif;\">iTeam-led innovations</span></strong><span style=\"font-family: Arial, Helvetica, sans-serif;\">: Our Innovation Enablement team proactively follows disruptive key trends in the market, identifying large-scale &ldquo;big bets&rdquo; in which to invest. Small teams of ZSers, called iTeams, are established to focus on developing services, solutions and offerings in these areas. &nbsp; &nbsp; &nbsp;</span></span></li>        <li style=\"font-size:15px;\"><span style=\"font-size: 15px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><strong>Practice innovations</strong>: These ideas are born within our practice areas. Examples include ALICE, NextGen IC and REVO. PALs work with their community of practitioners and client teams to identify client issues that we need to innovate on. &nbsp; &nbsp; &nbsp;</span></span></li>        <li style=\"font-size:15px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px;\"><strong>Grassroots innovation</strong>: These &ldquo;every day&rdquo; ideas often start at the client- or project-level and range in size and complexity. Grassroots innovations can also transform into game-changing solutions&mdash;but they can only do so if we share them with each other, and with our clients. Grassroots ideas in the form of small prototypes made during our Quest hackathon, such as algorithm as a service and voice-based interactivity, have helped our SD team shape bigger platforms such as REVO.</span></li>    </ul></div>"],
+                    "footer": "Click on any layer to dive deeper"
+                }
+      },
+			{
+                "pos": 9,
+                "dataset_name": "GLBD3JSTESTING.prp_finland_tenders_final_data_pq",
+                "chart_type": "heb_chart",
+                "title": "Scatter_plot3",
+                "layout": "left-text",
+                "x_axis": "predicted_ref_actual_ref_percent_difference",
+                "x_axis_agg": "mean",
+                "y_axis": "market_share_units_percent_diff",
+                "y_axis_agg": "mean",
+                "x_axis_label": "Actual vs Predicted Ref Price",
+                "y_axis_label": "Market Share Change",
+                "value_radius": "row_count",
+                "value_agg": "max",
+                "lod": "marketing_company",
+                "color": "substances_grouped",
+                "ischildren": 0.0,
+                "isinteractive": 0.0,
+                "isdropdown": 0.0,
+                "clicktofilter": 1.0,
+                "clickchildren": {},
+                "filtersource": "color",
+                "data": {"name":"root","children":[{"name":"skill","children":[{"name":"Strategy & Transformation","size":1,"imports":["root.domain.Value & Access","root.domain.Customer Centric Marketing","root.domain.Sales Compensation","root.skill.Business Operations","root.domain.Patient & Consumer Health","root.domain.Meetings + Events","root.skill.Customer Insights","root.domain.Growth Marketing","root.skill.Healthcare Ecosystem","root.skill.Integrated Analytics","root.skill.Business Technology","root.domain.Resource Planning & Deployment","root.domain.Pipeline & Launch Strategy","root.domain.R&D Excellence","root.skill.Creative & Design"]},{"name":"Creative & Design","size":1,"imports":["root.domain.Value & Access","root.domain.Customer Centric Marketing","root.domain.Sales Compensation","root.skill.Business Operations","root.domain.Patient & Consumer Health","root.skill.Strategy & Transformation","root.domain.Meetings + Events","root.skill.Customer Insights","root.domain.Growth Marketing","root.skill.Healthcare Ecosystem","root.skill.Integrated Analytics","root.skill.Business Technology","root.domain.Resource Planning & Deployment","root.domain.Pipeline & Launch Strategy","root.domain.R&D Excellence"]},{"name":"Customer Insights","size":1,"imports":["root.domain.Value & Access","root.domain.Customer Centric Marketing","root.domain.Sales Compensation","root.skill.Business Operations","root.domain.Patient & Consumer Health","root.skill.Strategy & Transformation","root.domain.Meetings + Events","root.domain.Growth Marketing","root.skill.Healthcare Ecosystem","root.skill.Integrated Analytics","root.skill.Business Technology","root.domain.Resource Planning & Deployment","root.domain.Pipeline & Launch Strategy","root.domain.R&D Excellence","root.skill.Creative & Design"]},{"name":"Integrated Analytics","size":1,"imports":["root.domain.Value & Access","root.domain.Customer Centric Marketing","root.domain.Sales Compensation","root.skill.Business Operations","root.domain.Patient & Consumer Health","root.skill.Strategy & Transformation","root.domain.Meetings + Events","root.skill.Customer Insights","root.domain.Growth Marketing","root.skill.Healthcare Ecosystem","root.skill.Business Technology","root.domain.Resource Planning & Deployment","root.domain.Pipeline & Launch Strategy","root.domain.R&D Excellence","root.skill.Creative & Design"]},{"name":"Business Operations","size":1,"imports":["root.domain.Value & Access","root.domain.Customer Centric Marketing","root.domain.Sales Compensation","root.domain.Patient & Consumer Health","root.skill.Strategy & Transformation","root.domain.Meetings + Events","root.skill.Customer Insights","root.domain.Growth Marketing","root.skill.Healthcare Ecosystem","root.skill.Integrated Analytics","root.skill.Business Technology","root.domain.Resource Planning & Deployment","root.domain.Pipeline & Launch Strategy","root.domain.R&D Excellence","root.skill.Creative & Design"]},{"name":"Business Technology","size":1,"imports":["root.domain.Value & Access","root.domain.Customer Centric Marketing","root.domain.Sales Compensation","root.skill.Business Operations","root.domain.Patient & Consumer Health","root.skill.Strategy & Transformation","root.domain.Meetings + Events","root.skill.Customer Insights","root.domain.Growth Marketing","root.skill.Healthcare Ecosystem","root.skill.Integrated Analytics","root.domain.Resource Planning & Deployment","root.domain.Pipeline & Launch Strategy","root.domain.R&D Excellence","root.skill.Creative & Design"]},{"name":"Healthcare Ecosystem","size":1,"imports":["root.domain.Value & Access","root.domain.Customer Centric Marketing","root.domain.Sales Compensation","root.skill.Business Operations","root.domain.Patient & Consumer Health","root.skill.Strategy & Transformation","root.domain.Meetings + Events","root.skill.Customer Insights","root.domain.Growth Marketing","root.skill.Integrated Analytics","root.skill.Business Technology","root.domain.Resource Planning & Deployment","root.domain.Pipeline & Launch Strategy","root.domain.R&D Excellence","root.skill.Creative & Design"]}]},{"name":"domain","children":[{"name":"R&D Excellence","size":1,"imports":[]},{"name":"Pipeline & Launch Strategy","size":1,"imports":[]},{"name":"Value & Access","size":1,"imports":[]},{"name":"Growth Marketing","size":1,"imports":[]},{"name":"Customer Centric Marketing","size":1,"imports":[]},{"name":"Meetings + Events","size":1,"imports":[]},{"name":"Resource Planning & Deployment","size":1,"imports":[]},{"name":"Sales Compensation","size":1,"imports":[]},{"name":"Patient & Consumer Health","size":1,"imports":[]}]}]},
+                "children": {},
+                "html": {
+                    "heading": "An orginization structure that further propels cross colllaboration to bring ideas to life",
+                    "subheading": "Sub Heading",
+                    "para": [
+                        "ZS’ Practice Area Model focuses on key client issues while advancing and infusing core capabilities"
+                    ],
+                    "footer": "Hover over any element"
+                }
+      },
+      {
+        "pos": 6,
+        "dataset_name": "GLBD3JSTESTING.prp_finland_tenders_final_data_pq",
+        "chart_type": "illu_image",
+        "title": "bubble",
+        "layout": "center-top",
+        "x_axis": "sales",
+        "x_axis_agg": "sum",
+        "x_axis_label": "Sales ($)",
+        "value_radius": "retail_price",
+        "value_agg": "mean",
+        "lod": "substances_grouped",
+        "color": "marketing_company",
+        "img_name":"g1.gif",
+        "ischildren": 0.0,
+        "isdropdown": 0.0,
+        "clicktofilter": 0.0,
+        "clickchildren": {},
+        "children": {},
+        "html": {
+          "heading": "Managing incubation lab projects as a portfolio",
+          "subheading": "Sub Heading",
+          "para": [
+              ""
+          ],
+          "footer": ""
+      }
+      }, 
+      {
+        "pos": 10,
+        "dataset_name": "GLBD3JSTESTING.prp_finland_tenders_final_data_pq",
+        "chart_type": "illu_image2",
+        "title": "bubble",
+        "layout": "center-top",
+        "x_axis": "sales",
+        "x_axis_agg": "sum",
+        "x_axis_label": "Sales ($)",
+        "value_radius": "retail_price",
+        "value_agg": "mean",
+        "lod": "substances_grouped",
+        "color": "marketing_company",
+        "img_name":"g2.gif",
+        "img_name2": "j2.png",
+        "ischildren": 0.0,
+        "isdropdown": 0.0,
+        "clicktofilter": 0.0,
+        "clickchildren": {},
+        "children": {},
+        "html": {
+          "heading": "Interactive Viz brings us capabilities and assets that make the idea of web based storytelling scalable and code-free",
+          "subheading": "Sub Heading",
+          "para": [
+              ""
+          ],
+          "footer": ""
+      }
+      }, 
+      {
+        "pos": 7,
+        "dataset_name": "test1_prepared",
+        "chart_type": "bubble_map",
+        "title": "Our People",
+        "layout": "right-text",
+        "x_axis": "Geography",
+        "y_axis": "Employees",
+        "y_axis_agg": "sum",
+        "x_axis_label": "Geography",
+        "y_axis_label": "Employees",
+        "value_radius": "row_count",
+        "value_agg": "max",
+        "color": "Skill_Set",
+        "ischildren": 1.0,
+        "isdropdown": 0.0,
+        "clicktofilter": 0.0,
+        "filtersource": "homecontinent",
+        "clickchildren":{
+          "pos": 6,
+          "dataset_name": "test1_prepared",
+          "chart_type": "stack_bar_hor",
+          "title": "By Skills",
+          "layout": "right-text",
+          "x_axis": "Employees",
+          "x_axis_agg": "sum",
+          "y_axis": "Skill_Set",
+          "x_axis_label": "Employees",
+          "y_axis_label": "Skill Set",
+          "value_radius": "row_count",
+          "value_agg": "max",
+          "color": "Geography",
+          "ischildren": 0.0,
+          "isdropdown": 0.0,
+          "filtertarget": "color",
+          "clicktofilter": 0.0,
+          "clickchildren": {},
+          "button_or_dropdown": "button",
+          "data": [
+            {
+              "y_axis": "Analytics",
+              "color": "Asia",
+              "x_axis": 1423
+            },
+            {
+              "y_axis": "Analytics",
+              "color": "Europe",
+              "x_axis": 26
+            },
+            {
+              "y_axis": "Analytics",
+              "color": "NA (East)",
+              "x_axis": 191
+            },
+            {
+              "y_axis": "Analytics",
+              "color": "NA (West)",
+              "x_axis": 175
+            },
+            {
+              "y_axis": "Architects",
+              "color": "Asia",
+              "x_axis": 195
+            },
+            {
+              "y_axis": "Architects",
+              "color": "Europe",
+              "x_axis": 2
+            },
+            {
+              "y_axis": "Architects",
+              "color": "NA (East)",
+              "x_axis": 19
+            },
+            {
+              "y_axis": "Architects",
+              "color": "NA (West)",
+              "x_axis": 16
+            },
+            {
+              "y_axis": "Business Operations",
+              "color": "Asia",
+              "x_axis": 1225
+            },
+            {
+              "y_axis": "Business Operations",
+              "color": "Europe",
+              "x_axis": 3
+            },
+            {
+              "y_axis": "Business Operations",
+              "color": "NA (East)",
+              "x_axis": 73
+            },
+            {
+              "y_axis": "Business Operations",
+              "color": "NA (West)",
+              "x_axis": 81
+            },
+            {
+              "y_axis": "Data Engineers",
+              "color": "Asia",
+              "x_axis": 723
+            },
+            {
+              "y_axis": "Data Engineers",
+              "color": "Europe",
+              "x_axis": 6
+            },
+            {
+              "y_axis": "Data Engineers",
+              "color": "NA (East)",
+              "x_axis": 70
+            },
+            {
+              "y_axis": "Data Engineers",
+              "color": "NA (West)",
+              "x_axis": 60
+            },
+            {
+              "y_axis": "Developers",
+              "color": "Asia",
+              "x_axis": 586
+            },
+            {
+              "y_axis": "Developers",
+              "color": "Europe",
+              "x_axis": 5
+            },
+            {
+              "y_axis": "Developers",
+              "color": "NA (East)",
+              "x_axis": 56
+            },
+            {
+              "y_axis": "Developers",
+              "color": "NA (West)",
+              "x_axis": 49
+            },
+            {
+              "y_axis": "Knowledge Management",
+              "color": "Asia",
+              "x_axis": 291
+            },
+            {
+              "y_axis": "Knowledge Management",
+              "color": "Europe",
+              "x_axis": 1
+            },
+            {
+              "y_axis": "Knowledge Management",
+              "color": "NA (East)",
+              "x_axis": 1
+            },
+            {
+              "y_axis": "Knowledge Management",
+              "color": "NA (West)",
+              "x_axis": 1
+            },
+            {
+              "y_axis": "Program Management",
+              "color": "Asia",
+              "x_axis": 98
+            },
+            {
+              "y_axis": "Program Management",
+              "color": "Europe",
+              "x_axis": 1
+            },
+            {
+              "y_axis": "Program Management",
+              "color": "NA (East)",
+              "x_axis": 9
+            },
+            {
+              "y_axis": "Program Management",
+              "color": "NA (West)",
+              "x_axis": 8
+            },
+            {
+              "y_axis": "Testing & QA",
+              "color": "Asia",
+              "x_axis": 293
+            },
+            {
+              "y_axis": "User Experience",
+              "color": "Asia",
+              "x_axis": 59
+            },
+            {
+              "y_axis": "User Experience",
+              "color": "Europe",
+              "x_axis": 1
+            },
+            {
+              "y_axis": "User Experience",
+              "color": "NA (East)",
+              "x_axis": 6
+            },
+            {
+              "y_axis": "User Experience",
+              "color": "NA (West)",
+              "x_axis": 5
+            }
+          ],
+          "children": {},
+          "html": {
+            "heading": "Supporting the culture and mindset, with the right mix of PEOPLE and skills",
+            "para": [
+              "When you ask both clients and employees what sets ZS apart, it’s our people."
+            ],
+            "footer": ""
+          }
+        },
+        "button_or_dropdown": "button",
+        "data": [
+          {"homecity": "Bangalore",
+          "n": 101,
+          "homelat": 12.97,
+          "homelon": 77.56,
+          "homecontinent": "Asia"},
+         {"homecity": "New Delhi",
+          "n": 2014,
+          "homelat": 28.6,
+          "homelon": 77.2,
+          "homecontinent": "Asia"},
+         {"homecity": "Osaka",
+          "n": 4,
+          "homelat": 34.6,
+          "homelon": 135.5,
+          "homecontinent": "Asia"},
+         {"homecity": "Pune",
+          "n": 2753,
+          "homelat": 18.53,
+          "homelon": 73.85,
+          "homecontinent": "Asia"},
+         {"homecity": "Shanghai",
+          "n": 2,
+          "homelat": 31.2165,
+          "homelon": 121.4365,
+          "homecontinent": "Asia"},
+         {"homecity": "Singapore",
+          "n": 0,
+          "homelat": 1.293,
+          "homelon": 103.8558,
+          "homecontinent": "Asia"},
+         {"homecity": "Tokyo",
+          "n": 19,
+          "homelat": 35.685,
+          "homelon": 139.7514,
+          "homecontinent": "Asia"},
+         {"homecity": "Cambridge",
+          "n": 0,
+          "homelat": 52.2004,
+          "homelon": 0.1166,
+          "homecontinent": "Europe"},
+         {"homecity": "Frankfurt",
+          "n": 6,
+          "homelat": 50.1,
+          "homelon": 8.675,
+          "homecontinent": "Europe"},
+         {"homecity": "London",
+          "n": 39,
+          "homelat": 51.5,
+          "homelon": -0.1167,
+          "homecontinent": "Europe"},
+         {"homecity": "Milan",
+          "n": 0,
+          "homelat": 45.47,
+          "homelon": 9.205,
+          "homecontinent": "Europe"},
+         {"homecity": "Paris",
+          "n": 0,
+          "homelat": 48.8667,
+          "homelon": 2.3333,
+          "homecontinent": "Europe"},
+         {"homecity": "Zurich",
+          "n": 0,
+          "homelat": 47.3,
+          "homelon": 8.5,
+          "homecontinent": "Europe"},
+         {"homecity": "Boston",
+          "n": 34,
+          "homelat": 42.3188,
+          "homelon": -71.0846,
+          "homecontinent": "NA (East)"},
+         {"homecity": "New York",
+          "n": 90,
+          "homelat": 40.6943,
+          "homelon": -73.9249,
+          "homecontinent": "NA (East)"},
+         {"homecity": "Philadelphia",
+          "n": 80,
+          "homelat": 40.0077,
+          "homelon": -75.1339,
+          "homecontinent": "NA (East)"},
+         {"homecity": "Princeton",
+          "n": 199,
+          "homelat": 40.3563,
+          "homelon": -74.6693,
+          "homecontinent": "NA (East)"},
+         {"homecity": "Sao Paulo",
+          "n": 1,
+          "homelat": -23.5,
+          "homelon": -46.6,
+          "homecontinent": "NA (East)"},
+         {"homecity": "Toronto",
+          "n": 17,
+          "homelat": 43.7,
+          "homelon": -79.42,
+          "homecontinent": "NA (East)"},
+         {"homecity": "Washington DC",
+          "n": 4,
+          "homelat": 38.9,
+          "homelon": -77.0,
+          "homecontinent": "NA (East)"},
+         {"homecity": "Buenos Aires",
+          "n": 50,
+          "homelat": -34.6025,
+          "homelon": -58.3975,
+          "homecontinent": "NA (West)"},
+         {"homecity": "Chicago",
+          "n": 21,
+          "homelat": 41.8373,
+          "homelon": -87.6862,
+          "homecontinent": "NA (West)"},
+         {"homecity": "Evanston",
+          "n": 99,
+          "homelat": 42.0463,
+          "homelon": -87.6942,
+          "homecontinent": "NA (West)"},
+         {"homecity": "Los Angeles",
+          "n": 62,
+          "homelat": 34.1139,
+          "homelon": -118.4068,
+          "homecontinent": "NA (West)"},
+         {"homecity": "San Diego",
+          "n": 4,
+          "homelat": 32.8312,
+          "homelon": -117.1225,
+          "homecontinent": "NA (West)"},
+         {"homecity": "San Mateo",
+          "n": 142,
+          "homelat": 37.5522,
+          "homelon": -122.3122,
+          "homecontinent": "NA (West)"},
+         {"homecity": "Seattle",
+          "n": 15,
+          "homelat": 47.6211,
+          "homelon": -122.3244,
+          "homecontinent": "NA (West)"},
+         {"homecity": "Tampa",
+          "n": 2,
+          "homelat": 27.9942,
+          "homelon": -82.4451,
+          "homecontinent": "NA (West)"}],
+        "children": {
+          "PA - Team & Skillset": {
+            "pos": 6,
+            "dataset_name": "GLBD3JSTESTING.prp_finland_tenders_final_data_pq",
+            "chart_type": "illu_image",
+            "title": "bubble",
+            "layout": "left-text",
+            "x_axis": "sales",
+            "x_axis_agg": "sum",
+            "x_axis_label": "Sales ($)",
+            "value_radius": "retail_price",
+            "value_agg": "mean",
+            "lod": "substances_grouped",
+            "color": "marketing_company",
+            "img_name": "pa1.png",
+            "ischildren": 0.0,
+            "isdropdown": 0.0,
+            "clicktofilter": 0.0,
+            "clickchildren": {},
+            "children": {},
+            "html": {
+              "heading": "Heading Title",
+              "subheading": "Sub Heading",
+              "para": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              ],
+              "footer": ""
+            }
+          },
+          "PA - POC Feedback": {
+            "pos": 6,
+            "dataset_name": "GLBD3JSTESTING.prp_finland_tenders_final_data_pq",
+            "chart_type": "illu_image",
+            "title": "bubble",
+            "layout": "left-text",
+            "x_axis": "sales",
+            "x_axis_agg": "sum",
+            "x_axis_label": "Sales ($)",
+            "value_radius": "retail_price",
+            "value_agg": "mean",
+            "lod": "substances_grouped",
+            "color": "marketing_company",
+            "img_name": "pa2.png",
+            "ischildren": 0.0,
+            "isdropdown": 0.0,
+            "clicktofilter": 0.0,
+            "clickchildren": {},
+            "children": {},
+            "html": {
+              "heading": "Heading Title",
+              "subheading": "Sub Heading",
+              "para": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              ],
+              "footer": ""
+            }
+          }
+        },
+        "html": {
+          "heading": "Critical to seed experimental and POC teams to effectively generate rapid feedback across tech & business stakeholders",
+          "para": [
+            "When you ask both clients and employees what sets ZS apart, it’s our people."
+          ],
+          "footer": "Click on a bubble to view region-wise people summary"
+        }
+      },
+			{
+                "pos": 8,
+                "dataset_name": "GLBD3JSTESTING.prp_finland_tenders_final_data_pq",
+                "chart_type": "illu_image",
+                "title": "Scatter_plot3",
+                "img_name": "f1.png",
+                "layout": "center-top",
+                "x_axis": "predicted_ref_actual_ref_percent_difference",
+                "x_axis_agg": "mean",
+                "y_axis": "market_share_units_percent_diff",
+                "y_axis_agg": "mean",
+                "x_axis_label": "Actual vs Predicted Ref Price",
+                "y_axis_label": "Market Share Change",
+                "value_radius": "row_count",
+                "value_agg": "max",
+                "lod": "marketing_company",
+                "color": "substances_grouped",
+                "ischildren": 0.0,
+                "isinteractive": 0.0,
+                "isdropdown": 0.0,
+                "clicktofilter": 1.0,
+                "clickchildren": {},
+                "filtersource": "color",
+                "children": {},
+                "html": {
+                    "heading": "Infrastructure setup to accelerate the journey from the whiteboard to POCs",
+                    "subheading": "Sub Heading",
+                    "para": [
+                        "With an array of strong industry data partnerships for near instant data access and ingestion, stencils and accelerators to standardize common analytics processes and a scalable and power packed workbench that can support diverse tools and technologies, our innovators have the right tools to be agile yet thorough"
+                    ],
+                    "footer": ""
+                }
+      }
+			]
+    }
+}

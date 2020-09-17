@@ -1,0 +1,57 @@
+{"api_data": 
+    {
+        "heading": "Interactive Viz Capability", 
+        "title_text": "[\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"]", 
+        "d3_color_scheme": "interpolateCividis",  
+        "defined_colors": {}, 
+        "data": [
+            {
+                "pos": 0,
+                "chart_type": "illu_image", 
+                "title": "Covid County Site Selection", 
+                "layout": "interpolatePuBu", 
+                "value_radius": "row_count", 
+                "value_agg": "max", 
+                "color": "color_key", 
+                "ischildren": 0.0, 
+                "isdropdown": 0.0, 
+                "clicktofilter": 0.0, 
+                "clickchildren": {}, 
+                "img_name": "g5.gif", 
+                "children": {}, 
+                "html": {
+                    "heading": "Heading Title", 
+                    "para": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."], 
+                    "footer": "Hover over any element"}
+            }, 
+            {
+                "pos": 1, 
+                "chart_type": "multi_image", 
+                "layout": "left-text", 
+                "value_radius": "row_count", 
+                "value_agg": "max", 
+                "color": "color_key", 
+                "ischildren": 0.0, 
+                "isdropdown": 0.0, 
+                "clicktofilter": 0.0, 
+                "clickchildren": {}, 
+                "img_name": ["1.png", "2.png", "3.png", "4.png"], 
+                "children": {}, 
+                "html": {"heading": "Types of Charts", 
+                    "para": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
+                    "footer": "Hover over any element"}
+                    }, 
+                {
+                    "pos": 2, 
+                    "chart_type": "illu_image", 
+                    "layout": "right-text", 
+                    "value_radius": "row_count", 
+                    "value_agg": "max", 
+                    "color": "color_key", 
+                    "ischildren": 0.0, 
+                    "isdropdown": 0.0, "clicktofilter": 0.0, "clickchildren": {}, "img_name": "g5.gif", "children": {}, "html": {"heading": "Interactivities", "para": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."], "footer": "Hover over any element"}}, 
+                {
+                    "pos": 3, 
+                    "chart_type": "illu_image", 
+                    "layout": "center-top", 
+                    "value_radius": "row_count", "value_agg": "max", "color": "color_key", "ischildren": 0.0, "isdropdown": 0.0, "clicktofilter": 0.0, "clickchildren": {}, "img_name": "test_combined.gif", "children": {}, "html": {"heading": "Integration with DSS", "para": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."], "footer": "Hover over any element"}}]}}

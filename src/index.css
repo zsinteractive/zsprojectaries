@@ -1,0 +1,130 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  /* background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,1.1)), url('./Pfizer.PNG'); */
+  /* background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden; */
+  /* filter: blur(8px); */
+  /* -webkit-filter: blur(8px); */
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-size: cover; */
+/* }  */
+
+/* #bg-image { */
+  /* The image used */
+  /* background-image: url('./Pfizer.PNG'); */
+
+  /* Add the blur effect */
+  /* filter: blur(8px); */
+  /* -webkit-filter: blur(8px); */
+
+  /* Full height */
+  /* height: 100%; */
+
+  /* Center and scale the image nicely */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+/* } */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3); 
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background:#DCDCDC;
+  /* -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.5);  */
+}
+
+.carousel .slide {
+  background: none !important
+}
+.carousel img {
+  width: auto !important
+}
+.carousel .thumb img {
+  width: 100% !important;
+}
+
+.carousel .thumb {
+  width: 130px !important
+}
+
+#graphic {
+  margin-top: 6.5%;
+  margin-left: 5%;
+  scroll-snap-type: y mandatory;
+}
+.pg-pips ul li a {
+  background: black;
+}
+
+/*h1{
+  font-size: 26px;
+}
+
+h2{
+  font-size: 18px;
+}
+h3{
+  font-size: 14px;
+}
+h4 {
+  font-size: 13px;
+} */
+
+
+#super-container{
+  -webkit-transition: all 1s ease-out;
+  animation: back-to-front 1s;
+}
+
+#logo_img{
+  -webkit-transition: all 1s ease-out;
+  animation: back-to-front 1s;
+}
+
+.fp-tableCell {
+  vertical-align: top !important
+}
+.MuiSelect-select.MuiSelect-select {
+  padding-right: 24px;
+  width: 250px !important;
+}
+
+@keyframes back-to-front{
+  0% {
+    z-index: -1;
+  }
+
+  100% {
+    z-index: -1;
+  }
+}
+
+@keyframes example {
+  from {z-index: 1;}
+  to {z-index: -1;}
+}
+
+#right-side-container :hover{ 
+  z-index:-1 !important
+}
+#right-side-container img{ 
+  object-fit: scale-down;
+}
